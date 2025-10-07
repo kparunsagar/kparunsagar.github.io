@@ -47,9 +47,9 @@ $('a.smooth-scroll')
 const certificates = [
   { name: "Az-900", description: "Azure Fundamentals", imageUrl: "images/cert/az_fun.jpg" },
   { name: "Az-204", description: "Azure Developer associate", imageUrl: "images/cert/az_dev.png" },
-  { name: "Transcript", description: "Azure all certificates", imageUrl: "images/cert/Az_devops.png" },
   { name: "Az-500", description: "Azure security engineer associate", imageUrl: "images/cert/Az_security.png" },
-  { name: "Accuknox", description: "Accuknox security awareness", imageUrl: "images/cert/Accuknox.png" },
+  { name: "Accuknox", description: "Accuknox security awareness", imageUrl: "images/cert/Accuknox_sec.png" },
+  { name: "Transcript", description: "Azure all certificates", imageUrl: "images/cert/Az_devops.png" },
   // Add more certificate objects as needed
 ];
 
