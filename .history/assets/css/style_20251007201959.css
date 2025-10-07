@@ -1,0 +1,111 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ===== THEME VARIABLES ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #0078ff;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+}
+
+/* ===== HEADER ===== */
+header {
+  position: sticky;
+  top: 0;
+  background: var(--bg-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: 700;
+  color: var(--accent-color);
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* ===== HERO ===== */
+#hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid var(--accent-color);
+}
+
+h1 span {
+  color: var(--accent-color);
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-color);
+  border-top: 1px solid #ccc;
+  font-size: 0.9rem;
+}
